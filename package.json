@@ -1,0 +1,25 @@
+{
+  "name": "expo-arkit",
+  "version": "0.0.1",
+  "description": "using expo, react native and arkit",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calebnance/expo-arkit.git"
+  },
+  "keywords": [
+    "expo",
+    "react-native",
+    "arkit",
+    "threejs"
+  ],
+  "author": "Caleb Nance",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/calebnance/expo-arkit/issues"
+  },
+  "homepage": "https://github.com/calebnance/expo-arkit#readme"
+}
