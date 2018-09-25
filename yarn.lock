@@ -429,6 +429,22 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
+"@expo/browser-polyfill@^0.0.0-alpha.4":
+  version "0.0.0-alpha.10"
+  resolved "https://registry.yarnpkg.com/@expo/browser-polyfill/-/browser-polyfill-0.0.0-alpha.10.tgz#5647e0ef05a0a188cc16ff190b2a63912e13b57d"
+  dependencies:
+    adaptive-bezier-curve "1.0.3"
+    adaptive-quadratic-curve "1.0.2"
+    color-parser "0.1.0"
+    earcut "2.1.3"
+    extrude-polyline "1.0.6"
+    fbemitter "^2.1.1"
+    gl-matrix "2.6.1"
+    react-native-console-time-polyfill "^0.0.6"
+    string-format "2.0.0"
+    text-encoding "^0.6.4"
+    xmldom-qsa "^1.0.3"
+
 "@expo/vector-icons@^6.3.1":
   version "6.3.1"
   resolved "http://registry.npmjs.org/@expo/vector-icons/-/vector-icons-6.3.1.tgz#ffb97cc2343e4a330b44ce3063ee7c8571a6a50d"
@@ -470,6 +486,14 @@ acorn-jsx@^4.1.1:
 acorn@^5.0.3, acorn@^5.6.0:
   version "5.7.3"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
+
+adaptive-bezier-curve@1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/adaptive-bezier-curve/-/adaptive-bezier-curve-1.0.3.tgz#477577abe87d7280d46ca41649f6c22646fe8227"
+
+adaptive-quadratic-curve@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/adaptive-quadratic-curve/-/adaptive-quadratic-curve-1.0.2.tgz#65b4190fc5711698d24f0ae7bd5fea6cda90010d"
 
 ajv-keywords@^3.0.0:
   version "3.2.0"
@@ -654,6 +678,10 @@ arrify@^1.0.0:
 art@^0.10.0:
   version "0.10.3"
   resolved "https://registry.yarnpkg.com/art/-/art-0.10.3.tgz#b01d84a968ccce6208df55a733838c96caeeaea2"
+
+as-number@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/as-number/-/as-number-1.0.0.tgz#acb27e34f8f9d8ab0da9e376f3b8959860f80a66"
 
 asap@~2.0.3:
   version "2.0.6"
@@ -1580,6 +1608,10 @@ color-name@^1.0.0:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
 
+color-parser@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/color-parser/-/color-parser-0.1.0.tgz#8e17c93ca02cc7b4d998d9b20cc6b0c8e1ce19ca"
+
 color-string@^1.5.2:
   version "1.5.3"
   resolved "https://registry.yarnpkg.com/color-string/-/color-string-1.5.3.tgz#c9bbc5f01b58b5492f3d6857459cb6590ce204cc"
@@ -1590,6 +1622,10 @@ color-string@^1.5.2:
 color-support@^1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/color-support/-/color-support-1.1.3.tgz#93834379a1cc9a0c61f82f52f0d04322251bd5a2"
+
+color-temperature@0.2.7:
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/color-temperature/-/color-temperature-0.2.7.tgz#6c32ad9dd9c0fe07ccf2d8680734781712332b40"
 
 color@^2.0.1:
   version "2.0.1"
@@ -1829,6 +1865,10 @@ doctrine@^2.1.0:
 dom-walk@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/dom-walk/-/dom-walk-0.1.1.tgz#672226dc74c8f799ad35307df936aba11acd6018"
+
+earcut@2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/earcut/-/earcut-2.1.3.tgz#ca579545f351941af7c3d0df49c9f7d34af99b0c"
 
 ee-first@1.1.1:
   version "1.1.1"
@@ -2159,6 +2199,10 @@ expo-analytics-segment@~1.0.0:
   dependencies:
     expo-core "~1.1.0"
 
+expo-asset-utils@^0.0.4-alpha.2:
+  version "0.0.4-alpha.3"
+  resolved "https://registry.yarnpkg.com/expo-asset-utils/-/expo-asset-utils-0.0.4-alpha.3.tgz#557aa99e394d6e4e6a369914b7e040a414588e78"
+
 expo-asset@~1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/expo-asset/-/expo-asset-1.1.0.tgz#f5b182fe553076ae6a0ab504f195f13287d65081"
@@ -2270,7 +2314,7 @@ expo-gl-cpp@~1.0.2:
   dependencies:
     expo-core "~1.1.0"
 
-expo-gl@~1.0.2:
+expo-gl@^1.0.1, expo-gl@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/expo-gl/-/expo-gl-1.0.2.tgz#730811ab43b25ec68a8ebee036292589238342e0"
   dependencies:
@@ -2278,6 +2322,12 @@ expo-gl@~1.0.2:
     expo-core "~1.1.0"
     expo-file-system-interface "~1.0.2"
     expo-gl-cpp "~1.0.2"
+
+expo-graphics@^1.0.0-alpha.6:
+  version "1.0.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/expo-graphics/-/expo-graphics-1.0.0-alpha.6.tgz#e180a60e5ad36936748f35d7767b7e43d67af97e"
+  dependencies:
+    expo-gl "^1.0.1"
 
 expo-image-loader-interface@~1.0.0:
   version "1.0.0"
@@ -2362,6 +2412,15 @@ expo-sms@~1.0.2:
   dependencies:
     expo-core "~1.1.0"
     expo-permissions-interface "~1.1.0"
+
+expo-three@^3.0.0-alpha.4:
+  version "3.0.0-alpha.4"
+  resolved "https://registry.yarnpkg.com/expo-three/-/expo-three-3.0.0-alpha.4.tgz#f759b2a013cbb76818ca159a7ab71c8e0eeda7d9"
+  dependencies:
+    "@expo/browser-polyfill" "^0.0.0-alpha.4"
+    color-temperature "0.2.7"
+    expo-asset-utils "^0.0.4-alpha.2"
+    three "0.88.0"
 
 expo@^30.0.0:
   version "30.0.1"
@@ -2463,6 +2522,14 @@ extglob@^2.0.4:
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
+
+extrude-polyline@1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/extrude-polyline/-/extrude-polyline-1.0.6.tgz#7e6afe1f349a4182fa3f61a00d93979b95f18b20"
+  dependencies:
+    as-number "^1.0.0"
+    gl-vec2 "^1.0.0"
+    polyline-miter-util "^1.0.1"
 
 fancy-log@^1.3.2:
   version "1.3.2"
@@ -2703,6 +2770,14 @@ get-stream@^3.0.0:
 get-value@^2.0.3, get-value@^2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/get-value/-/get-value-2.0.6.tgz#dc15ca1c672387ca76bd37ac0a395ba2042a2c28"
+
+gl-matrix@2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/gl-matrix/-/gl-matrix-2.6.1.tgz#1bc7f7b396f4ae80abdb4db9a98cd07d170b9004"
+
+gl-vec2@^1.0.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/gl-vec2/-/gl-vec2-1.3.0.tgz#83d472ed46034de8e09cbc857123fb6c81c51199"
 
 glob-base@^0.3.0:
   version "0.3.0"
@@ -3845,6 +3920,10 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
+nwmatcher@^1.4.1:
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/nwmatcher/-/nwmatcher-1.4.4.tgz#2285631f34a95f0d0395cd900c96ed39b58f346e"
+
 object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
@@ -4124,6 +4203,12 @@ pluralize@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-7.0.0.tgz#298b89df8b93b0221dbf421ad2b1b1ea23fc6777"
 
+polyline-miter-util@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/polyline-miter-util/-/polyline-miter-util-1.0.1.tgz#b693f2389ea0ded36a6bcf5ecd2ece4b6917d957"
+  dependencies:
+    gl-vec2 "^1.0.0"
+
 posix-character-classes@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
@@ -4235,6 +4320,10 @@ react-devtools-core@3.1.0:
 react-native-branch@2.2.5:
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/react-native-branch/-/react-native-branch-2.2.5.tgz#4074dd63b4973e6397d9ce50e97b57c77a518e9d"
+
+react-native-console-time-polyfill@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/react-native-console-time-polyfill/-/react-native-console-time-polyfill-0.0.6.tgz#7823d86fe83439c74480d1b124a92b1a78571889"
 
 react-native-gesture-handler@1.0.6:
   version "1.0.6"
@@ -4837,6 +4926,10 @@ stream-buffers@~2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/stream-buffers/-/stream-buffers-2.2.0.tgz#91d5f5130d1cef96dcfa7f726945188741d09ee4"
 
+string-format@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/string-format/-/string-format-2.0.0.tgz#f2df2e7097440d3b65de31b6d40d54c96eaffb9b"
+
 string-width@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-1.0.2.tgz#118bdf5b8cdc51a2a7e70d211e07e2b0b9b107d3"
@@ -4922,9 +5015,17 @@ temp@0.8.3:
     os-tmpdir "^1.0.0"
     rimraf "~2.2.6"
 
+text-encoding@^0.6.4:
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/text-encoding/-/text-encoding-0.6.4.tgz#e399a982257a276dae428bb92845cb71bdc26d19"
+
 text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
+
+three@0.88.0:
+  version "0.88.0"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.88.0.tgz#4256c2fc38e4fb23a0d23eba2b6cce4df8e466d5"
 
 throat@^4.1.0:
   version "4.1.0"
@@ -5208,6 +5309,12 @@ xmldoc@^0.4.0:
   resolved "https://registry.yarnpkg.com/xmldoc/-/xmldoc-0.4.0.tgz#d257224be8393eaacbf837ef227fd8ec25b36888"
   dependencies:
     sax "~1.1.1"
+
+xmldom-qsa@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/xmldom-qsa/-/xmldom-qsa-1.0.3.tgz#3b70a440997982aa323f911a8b8c3c7db6a6ff1f"
+  dependencies:
+    nwmatcher "^1.4.1"
 
 xmldom@0.1.x:
   version "0.1.27"
