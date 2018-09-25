@@ -2,9 +2,15 @@
   "name": "expo-arkit",
   "version": "0.0.1",
   "description": "using expo, react native and arkit",
+  "private": true,
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "expo": "^30.0.0",
+    "react": "^16.4.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz"
   },
   "repository": {
     "type": "git",
