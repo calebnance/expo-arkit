@@ -17,5 +17,5 @@ let styles = StyleSheet.create({
     backgroundColor: '#c0c5c1',
     flex: 1,
     justifyContent: 'center'
-  },
+  }
 });
