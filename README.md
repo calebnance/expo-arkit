@@ -1,4 +1,6 @@
-# expo-arkit
+# Expo ARKit
+
+view helpful links for all of the articles from [Evan Bacon](https://github.com/evanbacon) that are used in this repo example.
 
 ## install
 `yarn install`
@@ -17,3 +19,4 @@
 - [setup prettier/eslint within project](https://blog.echobind.com/integrating-prettier-eslint-airbnb-style-guide-in-vscode-47f07b5d7d6a)
 - [arkit in react native tutorial: the basics](https://blog.expo.io/arkit-in-react-native-tutorial-the-basics-9f839539f0b9)
 - [arkit shadows in react native](https://blog.expo.io/arkit-shadows-in-react-native-f881e01a99f8)
+- [arkit lighting & pbr in react native](https://blog.expo.io/arkit-lighting-pbr-in-react-native-ed28525bc90f)
