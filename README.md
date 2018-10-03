@@ -1,6 +1,6 @@
 # Expo ARKit
 
-view helpful links for all of the articles from [Evan Bacon](https://github.com/evanbacon) that are used in this repo example.
+view the helpful links section below for all of the articles from [Evan Bacon](https://github.com/evanbacon) that are used in this repo.
 
 ## install
 `yarn install`
